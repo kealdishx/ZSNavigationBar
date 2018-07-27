@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00E1C632109B4380045DC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C622109B4380045DC3B /* AppDelegate.swift */; };
+		E00E1C652109B4380045DC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C642109B4380045DC3B /* ViewController.swift */; };
+		E00E1C682109B4380045DC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E1C662109B4380045DC3B /* Main.storyboard */; };
+		E00E1C6A2109B4390045DC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00E1C692109B4390045DC3B /* Assets.xcassets */; };
+		E00E1C6D2109B4390045DC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E1C6B2109B4390045DC3B /* LaunchScreen.storyboard */; };
+		E00E1C782109B43A0045DC3B /* ZSNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C772109B43A0045DC3B /* ZSNavigationBarTests.swift */; };
+		E00E1C842109B4800045DC3B /* UINavigationBar+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C832109B4800045DC3B /* UINavigationBar+Custom.swift */; };
+		E05BE3A0210AFC760014F97E /* UINavigationBar+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = E05BE39F210AFC760014F97E /* UINavigationBar+Custom.m */; };
+		E05BE3A3210B0CD30014F97E /* ZSNavigationBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */; };
+		E05BE3A4210B0CD30014F97E /* ZSNavigationBar-oc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */; };
+		E0784D6E2109E8C9000CF900 /* ZSDeinitExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0784D6D2109E8C9000CF900 /* ZSDeinitExecutor.swift */; };
+		E0784D72210AE401000CF900 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0784D71210AE401000CF900 /* beach.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00E1C742109B4390045DC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00E1C572109B4380045DC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00E1C5E2109B4380045DC3B;
+			remoteInfo = ZSNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00E1C5F2109B4380045DC3B /* ZSNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00E1C622109B4380045DC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E00E1C642109B4380045DC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E00E1C672109B4380045DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00E1C692109B4390045DC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00E1C6C2109B4390045DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00E1C6E2109B4390045DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00E1C732109B4390045DC3B /* ZSNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00E1C772109B43A0045DC3B /* ZSNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSNavigationBarTests.swift; sourceTree = "<group>"; };
+		E00E1C792109B43A0045DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00E1C832109B4800045DC3B /* UINavigationBar+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Custom.swift"; sourceTree = "<group>"; };
+		E05BE39D210AFC760014F97E /* ZSNavigationBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSNavigationBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		E05BE39E210AFC760014F97E /* UINavigationBar+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Custom.h"; sourceTree = "<group>"; };
+		E05BE39F210AFC760014F97E /* UINavigationBar+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Custom.m"; sourceTree = "<group>"; };
+		E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZSNavigationBar.podspec; sourceTree = "<group>"; };
+		E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZSNavigationBar-oc.podspec"; sourceTree = "<group>"; };
+		E0784D6D2109E8C9000CF900 /* ZSDeinitExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSDeinitExecutor.swift; sourceTree = "<group>"; };
+		E0784D71210AE401000CF900 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00E1C5C2109B4380045DC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00E1C702109B4390045DC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00E1C562109B4380045DC3B = {
+			isa = PBXGroup;
+			children = (
+				E00E1C612109B4380045DC3B /* ZSNavigationBar */,
+				E00E1C762109B43A0045DC3B /* ZSNavigationBarTests */,
+				E00E1C602109B4380045DC3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00E1C602109B4380045DC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00E1C5F2109B4380045DC3B /* ZSNavigationBar.app */,
+				E00E1C732109B4390045DC3B /* ZSNavigationBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00E1C612109B4380045DC3B /* ZSNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */,
+				E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */,
+				E0784D6C2109E899000CF900 /* Source-oc */,
+				E00E1C822109B4410045DC3B /* Source-swift */,
+				E00E1C622109B4380045DC3B /* AppDelegate.swift */,
+				E00E1C642109B4380045DC3B /* ViewController.swift */,
+				E05BE39D210AFC760014F97E /* ZSNavigationBar-Bridging-Header.h */,
+				E0784D71210AE401000CF900 /* beach.jpg */,
+				E00E1C662109B4380045DC3B /* Main.storyboard */,
+				E00E1C692109B4390045DC3B /* Assets.xcassets */,
+				E00E1C6B2109B4390045DC3B /* LaunchScreen.storyboard */,
+				E00E1C6E2109B4390045DC3B /* Info.plist */,
+			);
+			path = ZSNavigationBar;
+			sourceTree = "<group>";
+		};
+		E00E1C762109B43A0045DC3B /* ZSNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00E1C772109B43A0045DC3B /* ZSNavigationBarTests.swift */,
+				E00E1C792109B43A0045DC3B /* Info.plist */,
+			);
+			path = ZSNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		E00E1C822109B4410045DC3B /* Source-swift */ = {
+			isa = PBXGroup;
+			children = (
+				E00E1C832109B4800045DC3B /* UINavigationBar+Custom.swift */,
+				E0784D6D2109E8C9000CF900 /* ZSDeinitExecutor.swift */,
+			);
+			path = "Source-swift";
+			sourceTree = "<group>";
+		};
+		E0784D6C2109E899000CF900 /* Source-oc */ = {
+			isa = PBXGroup;
+			children = (
+				E05BE39E210AFC760014F97E /* UINavigationBar+Custom.h */,
+				E05BE39F210AFC760014F97E /* UINavigationBar+Custom.m */,
+			);
+			path = "Source-oc";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00E1C5E2109B4380045DC3B /* ZSNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00E1C7C2109B43A0045DC3B /* Build configuration list for PBXNativeTarget "ZSNavigationBar" */;
+			buildPhases = (
+				E00E1C5B2109B4380045DC3B /* Sources */,
+				E00E1C5C2109B4380045DC3B /* Frameworks */,
+				E00E1C5D2109B4380045DC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSNavigationBar;
+			productName = ZSNavigationBar;
+			productReference = E00E1C5F2109B4380045DC3B /* ZSNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00E1C722109B4390045DC3B /* ZSNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00E1C7F2109B43A0045DC3B /* Build configuration list for PBXNativeTarget "ZSNavigationBarTests" */;
+			buildPhases = (
+				E00E1C6F2109B4390045DC3B /* Sources */,
+				E00E1C702109B4390045DC3B /* Frameworks */,
+				E00E1C712109B4390045DC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00E1C752109B4390045DC3B /* PBXTargetDependency */,
+			);
+			name = ZSNavigationBarTests;
+			productName = ZSNavigationBarTests;
+			productReference = E00E1C732109B4390045DC3B /* ZSNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00E1C572109B4380045DC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Lingyue;
+				TargetAttributes = {
+					E00E1C5E2109B4380045DC3B = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					E00E1C722109B4390045DC3B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E00E1C5E2109B4380045DC3B;
+					};
+				};
+			};
+			buildConfigurationList = E00E1C5A2109B4380045DC3B /* Build configuration list for PBXProject "ZSNavigationBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00E1C562109B4380045DC3B;
+			productRefGroup = E00E1C602109B4380045DC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00E1C5E2109B4380045DC3B /* ZSNavigationBar */,
+				E00E1C722109B4390045DC3B /* ZSNavigationBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00E1C5D2109B4380045DC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00E1C6D2109B4390045DC3B /* LaunchScreen.storyboard in Resources */,
+				E05BE3A4210B0CD30014F97E /* ZSNavigationBar-oc.podspec in Resources */,
+				E00E1C6A2109B4390045DC3B /* Assets.xcassets in Resources */,
+				E05BE3A3210B0CD30014F97E /* ZSNavigationBar.podspec in Resources */,
+				E00E1C682109B4380045DC3B /* Main.storyboard in Resources */,
+				E0784D72210AE401000CF900 /* beach.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00E1C712109B4390045DC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00E1C5B2109B4380045DC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00E1C652109B4380045DC3B /* ViewController.swift in Sources */,
+				E00E1C842109B4800045DC3B /* UINavigationBar+Custom.swift in Sources */,
+				E05BE3A0210AFC760014F97E /* UINavigationBar+Custom.m in Sources */,
+				E0784D6E2109E8C9000CF900 /* ZSDeinitExecutor.swift in Sources */,
+				E00E1C632109B4380045DC3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00E1C6F2109B4390045DC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00E1C782109B43A0045DC3B /* ZSNavigationBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00E1C752109B4390045DC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00E1C5E2109B4380045DC3B /* ZSNavigationBar */;
+			targetProxy = E00E1C742109B4390045DC3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00E1C662109B4380045DC3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00E1C672109B4380045DC3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00E1C6B2109B4390045DC3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00E1C6C2109B4390045DC3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00E1C7A2109B43A0045DC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E00E1C7B2109B43A0045DC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00E1C7D2109B43A0045DC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zakariyyasv.ZSNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZSNavigationBar/ZSNavigationBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00E1C7E2109B43A0045DC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zakariyyasv.ZSNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZSNavigationBar/ZSNavigationBar-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E00E1C802109B43A0045DC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zakariyyasv.ZSNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSNavigationBar.app/ZSNavigationBar";
+			};
+			name = Debug;
+		};
+		E00E1C812109B43A0045DC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zakariyyasv.ZSNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSNavigationBar.app/ZSNavigationBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00E1C5A2109B4380045DC3B /* Build configuration list for PBXProject "ZSNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00E1C7A2109B43A0045DC3B /* Debug */,
+				E00E1C7B2109B43A0045DC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00E1C7C2109B43A0045DC3B /* Build configuration list for PBXNativeTarget "ZSNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00E1C7D2109B43A0045DC3B /* Debug */,
+				E00E1C7E2109B43A0045DC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00E1C7F2109B43A0045DC3B /* Build configuration list for PBXNativeTarget "ZSNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00E1C802109B43A0045DC3B /* Debug */,
+				E00E1C812109B43A0045DC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00E1C572109B4380045DC3B /* Project object */;
+}
