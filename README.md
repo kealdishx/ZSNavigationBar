@@ -1,10 +1,10 @@
-# ZSNavigationBar
+# ZSNavigationBar[中文说明](https://github.com/iiiCeBlink/ZSNavigationBar/blob/master/README_CN.md)
 
 ZSNavigationBar uses category to allow you change UINavigationBar appearance dynamically.(supported iOS 11+)
 
-### Installation
+## Installation
 
-#### CocoaPods
+### CocoaPods
 
 - **Swift：**
 
@@ -18,20 +18,20 @@ ZSNavigationBar uses category to allow you change UINavigationBar appearance dyn
 2. Run `pod install` or `pod update`.
 3. Import `ZSNavigationBar`.
 
-#### Manually
+### Manually
 
 1. Add all files under `Source-oc` or `Source-swift` folder.
 2. Link with required frameworks: `UIKit`.
 3. If you use oc version, just import `UINavigationBar+custom.h`.
 
-### Requirements
+## Requirements
 
 - iOS 8+
 - Xcode 9+
 - swift 3.0+
 - Objective-c
 
-### Usage
+## Usage
 
 - **Swift：**
 
@@ -77,6 +77,6 @@ And usually in `viewDidDisappear`, you should call this method to avoid any side
 }
 ```
 
-### License
+## License
 
 ZSNavigationBar is available under the MIT license. See the LICENSE file for more info.

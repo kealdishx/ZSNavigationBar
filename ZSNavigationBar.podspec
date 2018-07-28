@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ZakariyyaSv/ZSNavigationBar"
   s.license      = "MIT"
   s.author       = { "iCeBlink" => "zakariyyasv@gmail.com" }
-  s.source       = { :git => "https://github.com/ZakariyyaSv/ZSNavigationBar.git" }
+  s.source       = { :git => "https://github.com/ZakariyyaSv/ZSNavigationBar.git", :tag => '1.0.0' }
   s.source_files = "ZSNavigationBar/Source-swift/*.swift"
   s.requires_arc = true
   s.platform     = :ios, '8.0'

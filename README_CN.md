@@ -2,9 +2,9 @@
 
 ZSNavigationBar 使用分类来允许你动态修改 UINaivegationBar 的外观。
 
-### 安装
+## 安装
 
-#### CocoaPods
+### CocoaPods
 
 - **Swift：**
 
@@ -18,20 +18,20 @@ ZSNavigationBar 使用分类来允许你动态修改 UINaivegationBar 的外观�
 2. 执行 `pod install` 或者 `pod update` 命令
 3. 导入 `ZSNavigationBar`
 
-#### 手动安装
+### 手动安装
 
 1. 将 `Source-oc` 或者 `Source-swift` 目录下的所有文件添加到你的项目中
 2. 链接必要的框架：`UIKit`
 3. 如果你使用的是 OC 版本，导入 `UINavigationBar+custom.h`
 
-### 要求
+## 要求
 
 - iOS 8+
 - Xcode 9+
 - swift 3.0+
 - Objective-c
 
-### 用法
+## 用法
 
 - **Swift：**
 
@@ -77,6 +77,6 @@ override func viewDidDisappear(_ animated: Bool) {
 }
 ```
 
-### 许可证
+## 许可证
 
 ZSNavigationBar 使用 MIT 许可证，详情见 LICENSE 文件。

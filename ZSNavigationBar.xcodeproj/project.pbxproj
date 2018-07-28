@@ -15,8 +15,6 @@
 		E00E1C782109B43A0045DC3B /* ZSNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C772109B43A0045DC3B /* ZSNavigationBarTests.swift */; };
 		E00E1C842109B4800045DC3B /* UINavigationBar+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E1C832109B4800045DC3B /* UINavigationBar+Custom.swift */; };
 		E05BE3A0210AFC760014F97E /* UINavigationBar+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = E05BE39F210AFC760014F97E /* UINavigationBar+Custom.m */; };
-		E05BE3A3210B0CD30014F97E /* ZSNavigationBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */; };
-		E05BE3A4210B0CD30014F97E /* ZSNavigationBar-oc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */; };
 		E0784D6E2109E8C9000CF900 /* ZSDeinitExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0784D6D2109E8C9000CF900 /* ZSDeinitExecutor.swift */; };
 		E0784D72210AE401000CF900 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0784D71210AE401000CF900 /* beach.jpg */; };
 /* End PBXBuildFile section */
@@ -46,8 +44,6 @@
 		E05BE39D210AFC760014F97E /* ZSNavigationBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSNavigationBar-Bridging-Header.h"; sourceTree = "<group>"; };
 		E05BE39E210AFC760014F97E /* UINavigationBar+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Custom.h"; sourceTree = "<group>"; };
 		E05BE39F210AFC760014F97E /* UINavigationBar+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Custom.m"; sourceTree = "<group>"; };
-		E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZSNavigationBar.podspec; sourceTree = "<group>"; };
-		E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZSNavigationBar-oc.podspec"; sourceTree = "<group>"; };
 		E0784D6D2109E8C9000CF900 /* ZSDeinitExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSDeinitExecutor.swift; sourceTree = "<group>"; };
 		E0784D71210AE401000CF900 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,8 +87,6 @@
 		E00E1C612109B4380045DC3B /* ZSNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				E05BE3A2210B0CD30014F97E /* ZSNavigationBar-oc.podspec */,
-				E05BE3A1210B0CD30014F97E /* ZSNavigationBar.podspec */,
 				E0784D6C2109E899000CF900 /* Source-oc */,
 				E00E1C822109B4410045DC3B /* Source-swift */,
 				E00E1C622109B4380045DC3B /* AppDelegate.swift */,
@@ -217,9 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00E1C6D2109B4390045DC3B /* LaunchScreen.storyboard in Resources */,
-				E05BE3A4210B0CD30014F97E /* ZSNavigationBar-oc.podspec in Resources */,
 				E00E1C6A2109B4390045DC3B /* Assets.xcassets in Resources */,
-				E05BE3A3210B0CD30014F97E /* ZSNavigationBar.podspec in Resources */,
 				E00E1C682109B4380045DC3B /* Main.storyboard in Resources */,
 				E0784D72210AE401000CF900 /* beach.jpg in Resources */,
 			);

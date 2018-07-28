@@ -2,7 +2,7 @@
 //  ZSDeinitExecutor.swift
 //  ZSNavigationBar
 //
-//  Created by zakariyyasv on 2018/7/26.
+//  Created by iiiceblink on 2018/7/26.
 //  Copyright © 2018年 Lingyue. All rights reserved.
 //
 
