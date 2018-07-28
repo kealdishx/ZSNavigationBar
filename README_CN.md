@@ -43,11 +43,11 @@ func setCustomTranslationY(translationY: CGFloat)
 func reset()
 ```
 
-通常，你应该在 `viewDidDisappear` 方法中调用下面的方法来避免一些副作用：
+通常，你应该在 `viewWillDisappear` 方法中调用下面的方法来避免一些副作用：
 
 ```swift
-override func viewDidDisappear(_ animated: Bool) {
-  super.viewDidDisappear(animated)
+override func viewWillDisappear(_ animated: Bool) {
+  super.viewWillDisappear(animated)
   self.navigationController?.navigationBar.reset()
 }
 ```
@@ -68,11 +68,11 @@ override func viewDidDisappear(_ animated: Bool) {
 - (void)zs_reset;
 ```
 
-通常，你应该在 `viewDidDisappear` 方法中调用下面的方法来避免一些副作用：
+通常，你应该在 `viewWillDisappear` 方法中调用下面的方法来避免一些副作用：
 
 ```Objectivec
-- (void)viewDidDisappear:(BOOL)animated {
-  [super viewDidDisappear:animated];
+- (void)viewWillDisappear:(BOOL)animated {
+  [super viewWillDisappear:animated];
   [self.navigationController.navigationBar zs_reset];
 }
 ```

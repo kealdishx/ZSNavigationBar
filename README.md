@@ -43,11 +43,11 @@ func setCustomTranslationY(translationY: CGFloat)
 func reset()
 ```
 
-And usually in `viewDidDisappear`, you should call this method to avoid any side effects:
+And usually in `viewWillDisappear`, you should call this method to avoid any side effects:
 
 ```swift
-override func viewDidDisappear(_ animated: Bool) {
-  super.viewDidDisappear(animated)
+override func viewWillDisappear(_ animated: Bool) {
+  super.viewWillDisappear(animated)
   self.navigationController?.navigationBar.reset()
 }
 ```
@@ -68,11 +68,11 @@ The category includes several methods that helps to change UINavigationBar's app
 - (void)zs_reset;
 ```
 
-And usually in `viewDidDisappear`, you should call this method to avoid any side effects:
+And usually in `viewWillDisappear`, you should call this method to avoid any side effects:
 
 ```Objectivec
-- (void)viewDidDisappear:(BOOL)animated {
-  [super viewDidDisappear:animated];
+- (void)viewWillDisappear:(BOOL)animated {
+  [super viewWillDisappear:animated];
   [self.navigationController.navigationBar zs_reset];
 }
 ```
