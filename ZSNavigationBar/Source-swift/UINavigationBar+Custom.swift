@@ -77,7 +77,7 @@ public extension UINavigationBar {
         self.observer = barBackgroundView.observe(\.frame, options: [.initial, .new]) { [unowned self] (_, change) in
           
           if let frame = change.newValue {
-
+            print("trigger")
             DispatchQueue.main.async {
               self.overlay?.frame = CGRect(origin: CGPoint.zero, size: frame.size)
             }

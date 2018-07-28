@@ -12,18 +12,24 @@ class ViewController: UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    if #available(iOS 11.0, *) {
+      self.tableView.contentInsetAdjustmentBehavior = .never
+    } else {
+      self.automaticallyAdjustsScrollViewInsets = false
+    }
     self.navigationController?.navigationBar.setCustomBackgroundColor(UIColor.clear)
   }
   
   override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    self.scrollViewDidScroll(self.tableView)
     self.navigationController?.navigationBar.shadowImage = UIImage()
+    self.scrollViewDidScroll(self.tableView)
+    super.viewWillAppear(animated)
   }
   
-  override func viewDidDisappear(_ animated: Bool) {
-    super.viewDidDisappear(animated)
+  override func viewWillDisappear(_ animated: Bool) {
     self.navigationController?.navigationBar.reset()
+    super.viewWillDisappear(animated)
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

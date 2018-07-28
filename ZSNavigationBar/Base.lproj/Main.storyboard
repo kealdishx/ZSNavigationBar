@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mOc-W2-VfF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mOc-W2-VfF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--View Controller-->
         <scene sceneID="jyl-9n-yys">
             <objects>
                 <tableViewController id="RSg-Oj-0fL" customClass="ViewController" customModule="ZSNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,11 +37,34 @@
                             <outlet property="delegate" destination="RSg-Oj-0fL" id="PaX-8k-jgq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="r1h-tH-RvV"/>
+                    <navigationItem key="navigationItem" title="View Controller" id="r1h-tH-RvV">
+                        <barButtonItem key="rightBarButtonItem" title="push" id="E5n-Sw-X9R">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="aaR-5C-QPw" kind="push" id="NkL-hn-LuB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Jq-nV-I3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1055" y="-582"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="UcB-MN-Lb6">
+            <objects>
+                <viewController id="aaR-5C-QPw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pFz-JD-OlM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="H5v-dz-sFj"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="T8e-Lh-5Jm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="isa-GM-HqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249" y="-574"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="6HH-v0-53Q">
